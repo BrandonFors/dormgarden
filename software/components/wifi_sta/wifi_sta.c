@@ -3,6 +3,7 @@
 #include "esp_private/wifi.h"
 #include "esp_wifi.h"
 #include "esp_wifi_netif.h"
+#include "esp_netif_sntp.h"
 
 #include "wifi_sta.h"
 

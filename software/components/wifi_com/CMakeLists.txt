@@ -3,6 +3,7 @@ set(include "include")
 
 list(APPEND srcs "wifi_com.c"
                  "http_weather.c"
+                 "http_dormgarden.c"
                 )
 
 idf_component_register(SRCS "${srcs}"

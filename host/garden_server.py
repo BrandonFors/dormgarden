@@ -28,7 +28,7 @@ def post_soil_log():
             cursor = plant_logs.cursor()
             cursor.execute("INSERT INTO SOIL_LOGS \
             (device_id,plant_name,timestamp,moisture_reading) VALUES (?,?,?,?)",
-                           (soil_log.get("device_id"), soil_log.get("plant_type"), soil_log.get("timestamp"), soil_log.get("moisture_reading")))
+                           (soil_log.get("device_id"), soil_log.get("plant_name"), soil_log.get("timestamp"), soil_log.get("moisture_reading")))
             plant_logs.commit()
     except:
         invalid_params_err = {
@@ -39,4 +39,4 @@ def post_soil_log():
 
 
 if __name__ == '__main__':
-    app.run(host='localhost', debug=True)
+    app.run(host='10.24.105.175', port=9147 , debug=True)
