@@ -6,7 +6,7 @@
 
 #define STEMMA_SENSOR_ADDR 0x36
 
-void hal_init();
+void my_hal_init();
 
 //General
 void hal_delay_us(uint32_t us);

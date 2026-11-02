@@ -1,1 +1,6 @@
 build
+
+// Removed to avoid password exposure
+sdkconfig*
+
+managed_components

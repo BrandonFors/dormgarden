@@ -20,7 +20,7 @@ static i2c_master_bus_config_t i2c_mst_config;
 static i2c_device_config_t i2c_dev_cfg;
 static i2c_master_dev_handle_t i2c_dev_handle;
 
-void hal_init(){
+void my_hal_init(){
 
     ESP_LOGI(TAG, "Initializing I2C");
 

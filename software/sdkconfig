@@ -3244,6 +3244,46 @@ CONFIG_WL_SECTOR_SIZE_4096=y
 # default:
 CONFIG_WL_SECTOR_SIZE=4096
 # end of Wear Levelling
+
+#
+# WiFI STA Configuration
+#
+CONFIG_WIFI_STA_CONNECT=y
+# default:
+CONFIG_WIFI_STA_CONNECT_IPV4=y
+# default:
+# CONFIG_WIFI_STA_CONNECT_IPV6 is not set
+# default:
+# CONFIG_WIFI_STA_CONNECT_UNSPECIFIED is not set
+# default:
+# CONFIG_WIFI_STA_AUTH_OPEN is not set
+# default:
+# CONFIG_WIFI_STA_AUTH_WEP is not set
+# default:
+# CONFIG_WIFI_STA_AUTH_WPA_PSK is not set
+# default:
+CONFIG_WIFI_STA_AUTH_WPA2_PSK=y
+# default:
+# CONFIG_WIFI_STA_AUTH_WPA_WPA2_PSK is not set
+# default:
+# CONFIG_WIFI_STA_AUTH_WPA3_PSK is not set
+# default:
+# CONFIG_WIFI_STA_AUTH_WPA2_WPA3_PSK is not set
+# default:
+# CONFIG_WIFI_STA_AUTH_WPAI_PSK is not set
+CONFIG_WIFI_STA_SSID="ND-device2"
+CONFIG_WIFI_STA_PASSWORD="stone342$breeze!heart"
+# default:
+# CONFIG_WIFI_STA_WPA3_SAE_PWE_HUNT_AND_PECK is not set
+# default:
+# CONFIG_WIFI_STA_WPA3_SAE_PWE_H2E is not set
+# default:
+CONFIG_WIFI_STA_WPA3_SAE_PWE_BOTH=y
+# default:
+CONFIG_WIFI_STA_WPA3_PASSWORD_ID=""
+# default:
+# CONFIG_WIFI_STA_AUTO_RECONNECT is not set
+# end of WiFI STA Configuration
 # end of Component config
 
 # default:
