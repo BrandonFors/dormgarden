@@ -16034,6 +16034,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2980305"
+			(at 66.04 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "29"
 			(uuid "89e0e52a-aef4-40e4-918a-ee06b8513e84")
 		)

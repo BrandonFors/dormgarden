@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "pads") (type "KiCad") (uri "/home/brandon/Documents/Kicad/footprint_libraries/pads.pretty") (options "") (descr ""))
+)
